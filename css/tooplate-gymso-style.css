@@ -618,6 +618,105 @@
     }
 
     /*---------------------------------------
+    Francetrip         
+  -----------------------------------------*/
+
+    .francetrip{
+      background-image: linear-gradient(rgba(0, 0, 0, 0.63),
+      rgba(5, 5, 5, 0.63)), url('../images/20160510-DSC_9877.jpg');
+      width: 100%;
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 100vh;
+      position: relative;
+      opacity: 0.9;
+
+      /* Full height */
+      height: 905px;
+
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      
+    }
+
+
+    .francetrip_2{
+          /* The image used */
+          background-image: linear-gradient(rgba(0, 0, 0, 0.63),
+          rgba(5, 5, 5, 0.63)), url('../images/IMG_0293.JPG');
+          width: 100%;
+  
+          left:1000px;
+              
+          /* Full height */
+          height: 950px; 
+        
+          /* Create the parallax scrolling effect */
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: cover;
+      
+    }
+
+  /*---------------------------------------
+    Austriatrip       
+  -----------------------------------------*/
+
+  .austriatrip{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),
+    rgba(5, 5, 5, 0.63)), url('../images/_DSC4296.JPG');
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+    opacity: 0.9;
+
+    /* Full height */
+    height: 905px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  
+  .austriatrip_2{
+    /* The image used */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),
+    rgba(5, 5, 5, 0.63)), url('../images/20150922-DSC_6898.jpg');
+    width: 100%;
+
+    left:1000px;
+        
+    /* Full height */
+    height: 950px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+
+
+
+    /*---------------------------------------
         GROUPCOURSE              
       -----------------------------------------*/
 
