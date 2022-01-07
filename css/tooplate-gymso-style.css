@@ -224,19 +224,6 @@
     }
 
 
-    /* BG OVERLAY */
-
-    .bg-overlay {
-      position: absolute;
-      top: 0x;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      width: 0%;
-      height:0%;
-      opacity: 0.9;
-    }
-
 
     /*---------------------------------------
       MODAL              
@@ -414,9 +401,9 @@
       STAND FOR            
     -----------------------------------------*/
 
-    .stand{
+    .stand.for.section{
       background-color:rgb(247, 247, 247);
-      height: 1050px;
+      height: 1000px;
     }
 
     /*---------------------------------------
@@ -610,7 +597,7 @@
 
     .francetrip{
       background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-      rgba(5, 5, 5, 0.63)), url('../images/background/20160510-DSC_9877.jpg');
+      rgba(5, 5, 5, 0.63)), url('../images/backgrounds/DSC02301.JPG');
       width: 100%;
       background-size: cover;
       background-attachment: fixed;
@@ -1127,6 +1114,8 @@
         margin-top: 25px;
       }
 
+
+
       /* Begin Media Queries*/
       @media screen and (max-width: 850px) {
         .contact-wrapper {
@@ -1153,7 +1142,10 @@
         }
       }
       
-      @media screen and (max-width: 569px) {
+      @media screen and (max-width: 650px) {
+
+
+
       
         .direct-contact-container, .form-wrapper {
           float: none;
@@ -1189,13 +1181,6 @@
         }
         
       }
-      
-      @media screen and (max-width: 410px) {
-        .send-button {
-          width: 99%;
-        }
-      }
-
 
 
 
@@ -1288,11 +1273,11 @@
       }
 
       .btn.btn-primary.send-button{
-        width: 350px;
+        width: 100px;
       }
 
       .alt-send-button{
-        width: 300px;
+        width: 25px;
       }
 
       .background_1{

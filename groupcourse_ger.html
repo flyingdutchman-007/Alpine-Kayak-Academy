@@ -28,7 +28,7 @@
     <nav class="navbar navbar-expand-lg fixed-top">
         <div class="container">
 
-            <a href="index_ger.html"><img class="navbar-brand" src="images/logi.png" alt="logo" style="width: 100px; left: -100px;"></a>
+            <a href="index_ger.html" ><img class="navbar-brand logo" src="images/logi.png" alt="logo"></a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -38,38 +38,36 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ml-lg-auto">
                     <li class="nav-item">
-                        <a href="index_ger.html" class="nav-link smoothScroll">Startseite</a>
+                        <a lang="en" href="#home" class="nav-link smoothScroll">Startseite</a>
                     </li>
 
                     
                     <li class="nav-item">
-                        <a href="index_ger.html#class" class="nav-link smoothScroll">Abenteuer</a>
+                        <a  id="menu2" href="#class" class="nav-link smoothScroll">Abenteuer</a>
                     </li>
 
+                    <li class="nav-item">
+                        <a id="menu3" href="#stand" class="nav-link smoothScroll">Unsere Ziele</a>
+                    </li>
+
+
+                    <li class="nav-item">
+                        <a id="menu3" href="about.html" class="nav-link smoothScroll">über uns</a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a id="menu4" href="#contact" class="nav-link smoothScroll">Kontakt</a>
+                        
+                    </li>
+
+
+                    <a href="index.html"><img alt="Englisch" src="images/language/gb.png"></a>
+                    <a href="index_ger.html" style="margin-left: 10px;"><img alt="Englisch" src="images/language/de.png"></a>
                     
-                    <li class="nav-item">
-                        <a href="index_ger.html#stand" class="nav-link smoothScroll">Unsere Ziele</a>
-                    </li>
-
-
-                    <li class="nav-item">
-                        <a href="about_ger.html" class="nav-link smoothScroll">Über uns</a>
-                    </li>
-
-
-
-                    <li class="nav-item">
-                        <a href="index_ger.html#contact" class="nav-link smoothScroll">Kontakt</a>
-                    </li>
-
-
-                    <li class="nav-item">
-
-                        <a href="index.html"><img alt="Englisch" src="images/language/gb.png"></a>
-                        <a href="index_ger.html" style="margin-left: 10px;"><img alt="Englisch" src="images/language/de.png"></a>
-
-                    </li>
-
+                        </div>
+                      </div>
                 </ul>
 
             </div>
@@ -94,7 +92,7 @@
                     <div class="row">
 
                          <div class="col-lg-8 col-md-10 mx-auto col-12">
-                              <div class="trainingscourse-text mt-5 text-center">
+                              <div class="trainingscourse-text mt-5 text-left">
                                     
                                     <h6 class="pretitle" data-aos="fade-up" data-aos-delay="300">Hier kommst du zu </h6>
 
@@ -190,7 +188,7 @@
       <!-- Book -->
         <section id="contact" id="book">
   
-            <h1 class="section-header" style="color: black;">BOOK COURSE</h1>
+            <h1 class="section-header" style="color: black;">KURS BUCHUNG</h1>
 
             <h6 style="text-align: center;"> Jeder Kurs, den wir anbieten, beginnt am Montag und hat die Länge Ihrer Wahl! </h6>
             <h6 style="text-align: center;">  Wenn Sie einen anderen Termin wünschen, schicken Sie uns einfach eine Nachricht. Wir sind extrem flexibel. </h6>
@@ -299,12 +297,10 @@
           
                 <textarea class="form-control" rows="10" placeholder="ERZÄHL UNS VON DEINER KAJAKERFAHRUNG..." name="message" required></textarea>
                 
-                <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND">
-                  <div class="alt-send-button">
-                    <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
-                  </div>
-                
-                </button>
+                <button class="btn btn-primary send-button" id="submit" type="submit" value="SEND" style="background-color: black; border: none;">
+                    <div class="alt-send-button">
+                      <i class="fa fa-paper-plane" style="color: orange;"></i><span class="send-text">SENDEN</span>
+                    </div>
                 
               </form>
               
@@ -332,23 +328,24 @@
             
           </section>  
             
-            
-
-        <!-- <section class='three'> 
-            <div class="background_2">
-
-                <svg  class= "svgbox_3" xmlns="http://www.w3.org/2000/svg" width="100%" height="500px">
-                    <g id="Group_3" data-name="Group 3" transform="translate(0 35.153)">
-                    <path id="Path_5" data-name="Path 5" d="M0,142.677l135.625,56.4c135.625-6.739,406.875-18.561,678.125-6.384,271.25,12.65,542.5,50.481,813.75,12.65S2170,54.018,2441.25,16.187s542.5,0,678.125,18.915L3255,54.018V281H0Z" transform="translate(3255 281.003) rotate(180)" fill="rgba(249,249,249,0.39)"/>
-                    </g>
-                    <path id="Path_6" data-name="Path 6" d="M0,168.245,135.625,163.9C271.25,159.231,522.8,145.67,794.046,154.11c271.25,8.768,562.2,40.355,833.454,14.135S2170,33.078,2441.25,6.857s542.5,30.284,678.125,43.395L3255,63.362V220.686H0Z" transform="translate(3255 255.838) rotate(180)" fill="rgba(249,249,249,0.88)"/>
-                    <path id="Path_7" data-name="Path 7" d="M0,104.939l135.625-2.709C271.25,99.318,518.967,65.538,790.217,70.8c271.25,5.469,566.033,23.449,837.283,7.094S2170,20.632,2441.25,4.277s542.5,18.889,678.125,27.067L3255,39.521v98.128H2441.25c-271.25,0-542.5,7.847-813.75,7.847s-542.5-7.847-813.75-7.847H0Z" transform="translate(3255 145.496) rotate(180)" fill="#fff"/>
-                </svg>
-                  
-                </div> -->
-
-
-        </section>
+         <!-- FOOTER -->
+         <footer class="site-footer">
+            <div class="container">
+                 <div class="row">
+  
+                      <div class="d-flex justify-content-center mx-auto col-lg-5 col-md-7 col-12">
+                          <p class="mr-4">
+                              <i style="color: black" class="fa fa-envelope-o mr-1"></i>
+                              <a style="color: black" href="#">alpinkayakacademy@gmail.com</a>
+                          </p>
+  
+                          <p><i style="color: black" class="fa fa-phone mr-1"></i> </p>
+                          <a style="color: black" href="#">00 386 31 563 464</a>
+                      </div>
+                      
+                 </div>
+            </div>
+       </footer>
 
     
      <!-- SCRIPTS -->
