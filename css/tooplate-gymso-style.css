@@ -78,6 +78,8 @@
       TYPOGRAPHY              
     -----------------------------------------*/
 
+  
+
     h1,h2,h3,h4,h5,h6 {
       font-weight: var(--font-weight-thin);
       line-height: normal;
@@ -292,9 +294,9 @@
 
     .nav-item .nav-link {
       position: relative;
-      right: 225px;
+      right: 175px;
       display: block;
-      color: var(--white-color);
+      color: var(--primary-color);
       font-size: var(--menu-font-size);
       font-weight: var(--font-weight-bold);
       text-transform: uppercase;
@@ -304,7 +306,7 @@
     .nav-item .nav-link.active,
     .nav-item .nav-link:hover {
 
-      color: var(--mood-color);
+      color: var(--white-color);
     }
 
     .navbar .social-icon li a {
@@ -384,7 +386,7 @@
 
     .hero {
       background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-      rgba(5, 5, 5, 0.63)), url('../images/_M__5970.jpg');
+      rgba(5, 5, 5, 0.63)), url('../images/backgrounds/_M__5970.jpg');
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
@@ -403,8 +405,19 @@
       background-repeat: no-repeat;
       background-size: cover;
 
+      
+
     }
 
+
+    /*---------------------------------------
+      STAND FOR            
+    -----------------------------------------*/
+
+    .stand{
+      background-color:rgb(247, 247, 247);
+      height: 1050px;
+    }
 
     /*---------------------------------------
       CLASS               
@@ -522,32 +535,6 @@
       CONTACT              
     -----------------------------------------*/
 
-    .webform input,
-    button#submit-button {
-      height: calc(2.25rem + 20px);
-    }
-
-    .form-control {
-      border-radius: var(--border-radius-small);
-      margin: 1.3rem 0;
-    }
-
-    .form-control:focus {
-      box-shadow: none;
-      border-color: var(--dark-color);
-    }
-
-    button#submit-button {
-      background: var(--dark-color);
-      border-color: transparent;
-      color: var(--white-color);
-      cursor: pointer;
-      transition: all 0.3s ease;
-    }
-
-    button#submit-button:hover {
-      background: var(--primary-color);
-    }
 
     .contact h2 + p {
       max-width: 90%;
@@ -623,7 +610,7 @@
 
     .francetrip{
       background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-      rgba(5, 5, 5, 0.63)), url('../images/20160510-DSC_9877.jpg');
+      rgba(5, 5, 5, 0.63)), url('../images/background/20160510-DSC_9877.jpg');
       width: 100%;
       background-size: cover;
       background-attachment: fixed;
@@ -649,7 +636,7 @@
     .francetrip_2{
           /* The image used */
           background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-          rgba(5, 5, 5, 0.63)), url('../images/IMG_0293.JPG');
+          rgba(5, 5, 5, 0.63)), url('../images/backgrounds/IMG_0293.JPG');
           width: 100%;
   
           left:1000px;
@@ -671,7 +658,7 @@
 
   .austriatrip{
     background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-    rgba(5, 5, 5, 0.63)), url('../images/_DSC4296.JPG');
+    rgba(5, 5, 5, 0.63)), url('../images/backgrounds/_DSC4296.JPG');
     width: 100%;
     background-size: cover;
     background-attachment: fixed;
@@ -697,9 +684,8 @@
   .austriatrip_2{
     /* The image used */
     background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-    rgba(5, 5, 5, 0.63)), url('../images/20150922-DSC_6898.jpg');
+    rgba(5, 5, 5, 0.63)), url('../images/backgrounds/20150922-DSC_6898.jpg');
     width: 100%;
-
     left:1000px;
         
     /* Full height */
@@ -728,7 +714,7 @@
 
       .trainingscourse{
         background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-        rgba(5, 5, 5, 0.63)), url('../images/class/gourptraining.jpg');
+        rgba(5, 5, 5, 0.63)), url('../images/backgrounds/gourptraining.jpg');
         width: 100%;
         background-size: cover;
         background-attachment: fixed;
@@ -753,17 +739,14 @@
 
 
       .md-12{
-        position: relative;
         color: #FF6F00;
-        vertical-align: middle;
-        text-align:center;
-        line-height: 905px;
 
+        text-align:center;
       }
       .background_2 {
         /* The image used */
         background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-        rgba(5, 5, 5, 0.63)), url('../images/DSC02538.JPG');
+        rgba(5, 5, 5, 0.63)), url('../images/backgrounds/DSC02538.JPG');
         width: 100%;
 
         left:1000px;
@@ -788,6 +771,8 @@
       .svgbox{
         position:absolute;
         top: 450px;
+        width:100%;
+        height:500px;
 
       }  
 
@@ -875,15 +860,19 @@
 
       .background_1{
 
-          /* The image used */
           background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-          rgba(5, 5, 5, 0.63)), url('../images/safety.jpg');
-          width: 100%;
-  
-          left:1000px;
-              
+          rgba(5, 5, 5, 0.63)), url('../images/backgrounds/safety.jpg');
+          background-size: cover;
+          background-attachment: fixed;
+          background-position: center;
+          background-repeat: no-repeat;
+          vertical-align: middle;
+          min-height: 100vh;
+          position: relative;
+          opacity: 0.8;
+             
           /* Full height */
-          height: 950px; 
+          height: 905px; 
         
           /* Create the parallax scrolling effect */
           background-attachment: fixed;
@@ -898,15 +887,19 @@
 
       
       .svgbox_1{
-        position:absolute;
+        position:relative;
         transform: rotate(180);
-        top: 2500px;
+        top:-25px;
+        width:100%;
+        height:500px;
 
       } 
 
       .svgbox_2{
-        position:absolute;
-        top: 3050px;
+        position:relative;
+        top: -100px;
+        width:100%;
+        height:500px;
 
       } 
 
@@ -916,10 +909,22 @@
         position: relative;
         background-color: white;
         width: 100%;
-        height: 1500px;
+        height: 1350px;
 
       }
 
+
+
+
+      .logo{
+        width: 100px; 
+        left: -100px;
+      }
+
+      .col-lg-8.col-md-10.mx-auto.col-12{
+        left: -500px;
+        top: -100px;
+      }
 
     /*---------------------------------------
         contact form           
@@ -930,6 +935,10 @@
         height: 100%;
       }
       
+      .btn.btn-primary.send-button{
+        width: 400px;
+
+      }
       .section-header {
         text-align: center;
         margin: 0 auto;
@@ -974,6 +983,7 @@
       }
       
       .alt-send-button {
+        margin: auto;
         width: 400px;
         height: 34px;
         transition: all .2s ease-in-out;
@@ -992,7 +1002,7 @@
       
       /* Begin Right Contact Page */
       .direct-contact-container {
-        max-width: 400px;
+        max-width: 350px;
       }
       
       /* Location, Phone, Email Section */
@@ -1103,7 +1113,20 @@
       hr {
         border-color: rgba(255,255,255,.6);
       }
+
+
+      .mt-5.mt-lg-0.mt-md-0.col-lg-4.col-md-6.col-12.one{
+        right: -175px
+      }
+
+      .mt-5.mt-lg-0.col-lg-4.col-md-6.col-12.two{
+        right: -275px
+      }
       
+      .row.first{
+        margin-top: 25px;
+      }
+
       /* Begin Media Queries*/
       @media screen and (max-width: 850px) {
         .contact-wrapper {
@@ -1174,6 +1197,10 @@
       }
 
 
+
+
+
+
     /*---------------------------------------
       RESPONSIVE STYLES              
     -----------------------------------------*/
@@ -1181,30 +1208,102 @@
     @media screen and (max-width: 992px) {
 
       .section {
-        padding: 5rem 0;
+        padding: 10rem 5;
+      }
+
+      .col-lg-8.col-md-10.mx-auto.col-12{
+        left: 0px;
+        top: auto;
+
+      }
+
+      .hero{
+        width: 100%;
+
+      }
+
+      .background_1{
+        width: 100%;
+        margin: auto;
+      }
+
+      .stand.for.section{
+        height: 1900px;
+      }
+
+      
+      .mt-5.mt-lg-0.mt-md-0.col-lg-4.col-md-6.col-12.one{
+        right: 0px;
+        margin: auto;
+      }
+
+      .mt-5.mt-lg-0.col-lg-4.col-md-6.col-12.two{
+        right: 0px;
+        margin: auto;
+      }
+
+      .mt-5.mt-lg-0.mt-md-0.col-lg-4.col-md-6.col-12.three{
+        margin: auto;
+      }
+
+      .mt-5.mt-lg-0.mt-md-0.col-lg-4.col-md-6.col-12.four{
+        margin: auto;
+      }
+      
+      .mt-5.mt-lg-0.mt-md-0.col-lg-4.col-md-6.col-12.five{
+        margin: auto;
+      }
+
+      .mob-text-center{
+        text-align: center;
+      }
+
+      .row.first{
+        margin-top:auto;
+      }
+
+  
+      .mt-5.mt-lg-0.mt-md-0.col-lg-4.col-md-6.col-12.five{
+        margin-top: auto;
       }
 
       .nav-item .nav-link {
-        padding: 6px;
+        right: 0px;
+        padding: 6px
+        
       }
 
-      .navbar .social-icon {
-        margin-top: 22px;
+      .logo{
+        left:0px;
       }
 
       .navbar-collapse,
       .site-footer {
         text-align: right;
-      }
-
-      .schedule-table {
-        display: block;
+        padding: 0px;
       }
 
       .modal-content {
         padding: 2rem;
       }
+
+      .btn.btn-primary.send-button{
+        width: 350px;
+      }
+
+      .alt-send-button{
+        width: 300px;
+      }
+
+      .background_1{
+        opacity: 0.0;
+      }
+
+      .line{
+        width: auto;
+      }
     }
+
 
     @media screen and (max-width: 767px) {
 
@@ -1220,11 +1319,6 @@
       .contact h2 span {
         display: block;
       }
-
-      .svgbox, .svgbox_1, .svgbox_2{
-        margin-top:auto;
-        margin-bottom: auto;
-      }
       
       .floatchild{
         width: 100%;
@@ -1234,15 +1328,6 @@
         margin-top:auto;
         margin-left:auto;
         margin-right:auto;
-      }
-
-      .svgbox, .svgbox_1, .svgbox_2{
-        width: 100%;
-      }
-
-      .description{
-        height:1000px;
-        margin-top:auto;
       }
 
       
