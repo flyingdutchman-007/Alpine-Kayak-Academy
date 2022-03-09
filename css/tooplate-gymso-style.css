@@ -367,13 +367,18 @@
       top: 8px;
     }
 
+    .tof{
+      width: 1000px;
+      margin: 100px;
+      height: 5000px;
+    }
     /*---------------------------------------
       HERO              
     -----------------------------------------*/
 
     .hero {
       background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-      rgba(5, 5, 5, 0.63)), url('../images/backgrounds/_M__5970.jpg');
+      rgba(5, 5, 5, 0.63)), url('../images/backgrounds/Kayaking_whitewater_river_soča.JPG');
       background-size: cover;
       background-attachment: fixed;
       background-position: center;
@@ -403,7 +408,7 @@
 
     .stand.for.section{
       background-color:rgb(247, 247, 247);
-      height: 1000px;
+      height: 1200px;
     }
 
     /*---------------------------------------
@@ -548,7 +553,7 @@
     }
 
     .site-footer a {
-      color: var(--p-color);
+      color: var(--dark-color);
       font-weight: var(--font-weight-light);
     }
 
@@ -597,7 +602,7 @@
 
     .francetrip{
       background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-      rgba(5, 5, 5, 0.63)), url('../images/backgrounds/DSC02301.JPG');
+      rgba(5, 5, 5, 0.63)), url('../images/20160510-DSC_9778-min.jpg');
       width: 100%;
       background-size: cover;
       background-attachment: fixed;
@@ -701,7 +706,7 @@
 
       .trainingscourse{
         background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-        rgba(5, 5, 5, 0.63)), url('../images/backgrounds/gourptraining.jpg');
+        rgba(5, 5, 5, 0.63)), url('../images/backgrounds/Kayaker_from_Alpin_Kayak_Academy_Boofing_on_soča.jpg');
         width: 100%;
         background-size: cover;
         background-attachment: fixed;
@@ -756,10 +761,10 @@
       }
 
       .svgbox{
-        position:absolute;
-        top: 450px;
+        position: absolute;
+        margin-top: 460px;
         width:100%;
-        height:500px;
+
 
       }  
 
@@ -848,7 +853,7 @@
       .background_1{
 
           background-image: linear-gradient(rgba(0, 0, 0, 0.63),
-          rgba(5, 5, 5, 0.63)), url('../images/backgrounds/safety.jpg');
+          rgba(5, 5, 5, 0.63)), url('../images/backgrounds/Whitewater_safety_for_course.jpg');
           background-size: cover;
           background-attachment: fixed;
           background-position: center;
@@ -872,6 +877,83 @@
 
       
 
+      .france_1{
+
+        background-image: linear-gradient(rgba(0, 0, 0, 0.63),
+        rgba(5, 5, 5, 0.63)), url('../images/header_1.5gb.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        vertical-align: middle;
+        min-height: 100vh;
+        position: relative;
+        opacity: 0.8;
+           
+        /* Full height */
+        height: 905px; 
+      
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+
+    }
+
+    .france_2{
+
+      background-image: linear-gradient(rgba(0, 0, 0, 0.63),
+      rgba(5, 5, 5, 0.63)), url('../images/IMG_0293-min.JPG');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      vertical-align: middle;
+      min-height: 100vh;
+      position: relative;
+      opacity: 0.8;
+         
+      /* Full height */
+      height: 905px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+
+
+  }
+
+  .france_3{
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.63),
+    rgba(5, 5, 5, 0.63)), url('../images/20150922-DSC_6898-min.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    min-height: 100vh;
+    position: relative;
+    opacity: 0.8;
+       
+    /* Full height */
+    height: 905px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+      
+
       
       .svgbox_1{
         position:relative;
@@ -884,7 +966,17 @@
 
       .svgbox_2{
         position:relative;
-        top: -100px;
+        margin-top: -100px;
+        width:100%;
+        height:500px;
+
+      } 
+
+
+      
+      .svgbox_3{
+        position:relative;
+        margin-top: -40px;
         width:100%;
         height:500px;
 
@@ -1103,11 +1195,11 @@
 
 
       .mt-5.mt-lg-0.mt-md-0.col-lg-4.col-md-6.col-12.one{
-        right: -175px
+        right: -150px
       }
 
       .mt-5.mt-lg-0.col-lg-4.col-md-6.col-12.two{
-        right: -275px
+        right: -225px
       }
       
       .row.first{
@@ -1116,7 +1208,9 @@
 
 
 
-      /* Begin Media Queries*/
+
+
+      /* Begin Media Queries*/  
       @media screen and (max-width: 850px) {
         .contact-wrapper {
           display: flex;
@@ -1143,8 +1237,6 @@
       }
       
       @media screen and (max-width: 650px) {
-
-
 
       
         .direct-contact-container, .form-wrapper {
@@ -1182,15 +1274,51 @@
         
       }
 
+      .fa.fa-facebook {
+        padding: 10px;
+        font-size: 15px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
 
+      
+        .fa.fa-instagram {
+        padding: 10px;
+        font-size: 15px;
+        width: 50px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+      }
+      .fa.fa-facebook {
+        background: #3B5998;
+        color: white;
+      }
 
-
+      .fa.fa-instagram {
+        background: #bc2a8d;
+        color: white;
+      }
 
     /*---------------------------------------
       RESPONSIVE STYLES              
     -----------------------------------------*/
 
     @media screen and (max-width: 992px) {
+
+      .ey{
+        font-size: 0px;
+        }
+
+      .stand{
+        height: auto;
+      }
+
+      .floatchild{
+        width: auto;
+      }
 
       .section {
         padding: 10rem 5;
@@ -1204,7 +1332,6 @@
 
       .hero{
         width: 100%;
-
       }
 
       .background_1{
@@ -1218,11 +1345,13 @@
 
       
       .mt-5.mt-lg-0.mt-md-0.col-lg-4.col-md-6.col-12.one{
+        top: auto;
         right: 0px;
         margin: auto;
       }
 
       .mt-5.mt-lg-0.col-lg-4.col-md-6.col-12.two{
+        top: auto;
         right: 0px;
         margin: auto;
       }
@@ -1261,7 +1390,7 @@
       .logo{
         left:0px;
       }
-
+      
       .navbar-collapse,
       .site-footer {
         text-align: right;
@@ -1287,6 +1416,7 @@
       .line{
         width: auto;
       }
+      
     }
 
 
@@ -1314,7 +1444,34 @@
         margin-left:auto;
         margin-right:auto;
       }
-
-      
-  
     }
+
+
+    @media screen and (min-width: 700px) and (max-device-width: 800px){
+
+      .svgbox{
+        margin-top: 525px;
+      }
+
+      .stand.for.section{
+        height: 1200px;
+      }
+
+
+    }
+
+    @media screen and (min-width: 800px) and (max-device-width: 900px){
+
+        .svgbox{  
+          margin-top: 680px;
+        }
+
+        .stand.for.section{
+          height: 1200px;
+        }
+
+  }
+
+
+
+
